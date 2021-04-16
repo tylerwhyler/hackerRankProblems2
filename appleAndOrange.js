@@ -15,3 +15,5 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     }
     console.log(String(`${appleCount}\n${orangeCount}`))
 }
+
+countApplesAndOranges(2, 3, 1, 5, [2], [-2])
